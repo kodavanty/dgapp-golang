@@ -1,0 +1,3 @@
+logpath: /home/aruba/gocode/src/github.com/kodavanty/dgapp/dgapp.log
+dbserver: localhost
+cccfile: /home/aruba/gocode/src/github.com/kodavanty/dgapp/USDIV.xlsx

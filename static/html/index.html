@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app="DgApp">
+    <head>
+        <title>Dividend Growth Stock Analyzer App</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+        <!-- DG App JavaScript -->
+        <script src="/js/dgapp.js"></script>
+        <!-- DG App Extra CSS -->
+        <link rel="stylesheet" href="/css/dgapp.css">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <div class="container" ng-controller="TabController">
+            <div class="jumbotron">
+                <h1>Dividend Stock Analyzer App</h1>
+            </div>
+            <ul class="nav nav-tabs">
+                <li><a href="#home">HOME</a></li>
+                <li class="active"><a href="#find">FIND STOCK</a></li>
+            </ul>
+            <div ng-view></div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Vamsi Kodavanty @2015</p>
+            </div>
+        </footer>
+    </body>
+</html>

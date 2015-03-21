@@ -1,0 +1,24 @@
+            <form class="form-inline voffset3" role="form" ng-submit="findStock()">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="stock" ng-model="ticker">
+                    <input type="submit" class="btn btn-info" value="FIND">
+                </div>
+            </form>
+            <div class="table-responsive voffset4"> 
+                <table class="table table-bordered table-striped table-condensed" ng-hide="dgappInfo.hideResult">
+                    <thead>
+                        <tr class="text-uppercase">
+                            <th class="col-sm-1"><a href="" ng-click="sortField = 'ticker'; reverse = !reverse">Ticker</a></th>
+                            <th class="col-sm-3">Name</th>
+                            <th class="col-sm-1"><a href="" ng-click="sortField = 'dividend'; reverse = !reverse">Dividend</a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-muted" ng-repeat="s in stocks | orderBy:sortField:reverse">
+                            <th>{{ s.ticker }}</th>
+                            <th>{{ s.name }}</th>
+                            <th>{{ s.dividend }}%</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>

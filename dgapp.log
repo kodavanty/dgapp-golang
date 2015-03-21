@@ -1,0 +1,42 @@
+LOG: 2015/03/16 05:55:59 server.go:147: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 05:56:15 server.go:84: ARUN
+LOG: 2015/03/16 05:56:15 server.go:88: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 05:56:20 server.go:84: CSCO
+LOG: 2015/03/16 05:56:20 server.go:88: &{CSCO Cisco Systems 3.4}
+LOG: 2015/03/16 06:08:04 server.go:147: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 06:27:34 server.go:84: 123
+LOG: 2015/03/16 06:27:34 server.go:84: 123
+LOG: 2015/03/16 06:27:34 server.go:84: 123
+LOG: 2015/03/16 07:08:34 server.go:147: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 07:22:25 server.go:148: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 07:23:45 server.go:148: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 07:25:50 server.go:84: ARUN
+LOG: 2015/03/16 07:25:50 server.go:88: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 07:25:54 server.go:84: asdf
+LOG: 2015/03/16 07:25:54 server.go:84: asdf
+LOG: 2015/03/16 07:25:54 server.go:84: asdf
+LOG: 2015/03/16 07:27:59 server.go:147: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 07:28:27 server.go:84: ARUN
+LOG: 2015/03/16 07:28:27 server.go:88: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 07:28:33 server.go:84: asdf
+LOG: 2015/03/16 07:28:33 server.go:84: asdf
+LOG: 2015/03/16 07:28:33 server.go:84: asdf
+LOG: 2015/03/16 07:31:38 server.go:150: Len 3: []*stocks.Stock{(*stocks.Stock)(0xc21001eea0), (*stocks.Stock)(0xc21001ef00), (*stocks.Stock)(0xc21001ef60)}
+LOG: 2015/03/16 07:32:29 server.go:91: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 07:32:34 server.go:91: &{CSCO Cisco Systems 3.4}
+LOG: 2015/03/16 08:45:13 server.go:91: &{CSCO Cisco Systems 3.4}
+LOG: 2015/03/16 08:45:17 server.go:91: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 21:18:37 server.go:95: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 21:29:17 server.go:93: Finding stock asdf from DB
+LOG: 2015/03/16 21:32:16 server.go:93: Finding stock PG from DB
+LOG: 2015/03/16 21:32:16 server.go:99: Found stock PG from DB
+LOG: 2015/03/16 21:32:16 server.go:101: &{PG Proctor & Gamble 3.8}
+LOG: 2015/03/16 21:32:30 server.go:101: &{ARUN ArubaNetworks 0}
+LOG: 2015/03/16 21:32:35 server.go:93: Finding stock CISCO from DB
+LOG: 2015/03/16 21:56:52 server.go:96: Finding stock PG from DB
+LOG: 2015/03/16 21:56:52 server.go:102: Found stock PG from DB
+LOG: 2015/03/16 21:56:52 server.go:104: &{PG Proctor & Gamble 3.8}
+LOG: 2015/03/16 21:56:57 server.go:96: Finding stock asdf from DB
+LOG: 2015/03/16 21:57:04 server.go:96: Finding stock ARUN from DB
+LOG: 2015/03/16 21:57:04 server.go:102: Found stock ARUN from DB
+LOG: 2015/03/16 21:57:04 server.go:104: &{ARUN ArubaNetworks 0}
